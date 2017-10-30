@@ -14,7 +14,7 @@ namespace XF.Recursos
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new XF.Recursos.GPS.CoordenadaView());
+            MainPage = new NavigationPage(new XF.Recursos.MainPage());
         }
 
         public static async Task Sleep(int ms)
